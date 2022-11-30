@@ -1,8 +1,6 @@
 #!/usr/bin/python3
 # 12-fizzbuzz.py
 # Brennan D Baraban <375@holbertonschool.com>
-
-
 def fizzbuzz():
     """Print the numbers from 1 to 100 separated by a space.
     For multiples of three, print Fizz instead of the number.
@@ -18,4 +16,3 @@ def fizzbuzz():
             print("Buzz ", end="")
         else:
             print("{} ".format(number), end="")
-            
