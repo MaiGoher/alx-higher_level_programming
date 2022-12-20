@@ -110,4 +110,3 @@ class Square:
                 for j in range(s):
                     print("#", end='')
                 print()
-                
