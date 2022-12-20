@@ -1,10 +1,20 @@
 #!/usr/bin/python3
-"""Node Class"""
-class Node:
-    """represent Node"""
+""" module documentation. """
 
-    def __init__(self, data=0, next_node=None):
-        """Initializes the node """
+
+class Node:
+    """Node of a singly linked list.
+    Private instance attribute: data:
+        - property def data(self)
+        - property setter def data(self, value)
+    Private instance attribute: next_node:
+        - property def next_node(self)
+        - property setter def next_node(self, value)
+    Instantiation with data and next_node.
+    """
+
+    def __init__(self, data, next_node=None):
+        """Initializes the data of the node."""
         self.data = data
         self.next_node = next_node
 
